@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.head{
+    width: 100%;
+    height: 10.5vh;
+    padding:1rem;
+    background: bisque;
+    display:flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(230,213,168,1) 4%, rgba(236,80,48,0.3411415591627276) 50%, rgba(195,156,178,1) 100%);
+}
+.head h2{
+    color:rgb(91, 107, 122);
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav{
+    flex:1;
+    text-align:center;
+}
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px ;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav ul li a:hover{
+    color: orangered;
+    transition: 0.2s;
+}
+.logo{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+/* Add a card effect for articles */
+.card {
+    display:flex;
+    gap: 20px;
+    padding:10px;
+}
+.leftcolumn{
+    margin: 10px;
+    padding: 20px;
+}
+.leftcolumn h2{
+    padding-left: 10px;
+}
+.card img{
+    flex: 50%;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+.card p{
+    flex: 50%;
+    font-size: 18px;
+}
+
+
+/* -------footer------- */
+.footer{
+    background:darkslategray;
+    color: #fff;
+    padding: 50px;
+    display:flex;
+    font-size: 17px;
+    line-height: 25px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 250px;
+}
+.footer-col-1{
+    flex-basis: 40%;
+}
+.footer-col-1 img{
+    width: 150px;
+    margin-bottom:20px;
+ }
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color:mistyrose;
+}
+.footer-col-2{
+    flex: 30%;
+}
+.footer-col-3{
+    flex: 20%;
+}
+
