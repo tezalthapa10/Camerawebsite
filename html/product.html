@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="../css/product.css">
+    <!--internal css-->
+    <style>
+        .search{
+            display:flex;
+            padding:20px 80px;
+            justify-content: space-between;
+        }
+        .search h1{
+            letter-spacing: 3px;
+            display: inline-block;
+            border-bottom:5px solid orangered;
+            padding-bottom: 10px;
+        }
+        .search input{
+            width: 60%;
+            padding: 5px 15px;
+            background: transparent;
+            border: 1px solid orangered;
+            font-size: 15px;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="header">
+        <div class="logo">
+            <img src="../Images/logo.png" width="120px">
+            <h2>Focus Frenzy</h2>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../html/product.html">Product</a></li>
+                <li><a href="../html/blog.html">Blog</a></li>
+                <li><a href="../html/research.html">Research</a></li>
+                <li><a href="../html/Aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- product page -->
+    <div class="search">
+        <h1>All Products</h1>
+        <input type="text" name="" placeholder="Search Here...">
+    </div>
+    <div class="col">
+        <div class="card">
+            <a href="../html/products-1.html" > <img src="../Images/backpack.jpg"> </a>
+            <h3>Backpack</h3>
+            <div class="price">NPR. 1500/- <br><del>NPR.2500/- </del></div>
+            <a href="" class="button" id="buyNowBtn" onclick="buyNow()">BUY NOW</a>
+            <a href="" class="button" id="addToCartBtn" onclick="addToCart()">ADD TO CART</a>
+        </div>
+        <div class="card">
+            <img src="../Images/battery.webp">
+            <h3>Sony Camera Charger</h3>
+            <div class="price">NPR. 1,500/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>
+        <div class="card">
+            <img src="../Images/Instax mini camera.jpg">
+            <h3>FujiFilm Instax mini</h3>
+            <div class="price">NPR. 11,000/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>
+        <div class="card">
+            <img src="../Images/lens kit.jpg">
+            <h3>Full Lens Kit</h3>
+            <div class="price">NPR. 80,000/- <br><del>NPR. 120,000</del></div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>
+        <div class="card">
+            <img src="../Images/Tripod 2.jpg">
+            <h3>Rangers Deatachable Monopod</h3>
+            <div class="price">NPR. 2,700/- <br> <del>NPR.5000</del></div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>    
+        <div class="card">
+            <img src="../Images/backpack 2.jpg">
+            <h3>Backpack</h3>
+            <div class="price">NPR. 2,500/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>
+        <div class="card">
+            <img src="../Images/sony.jpg">
+            <h3>Sony Dslr Camera</h3>
+            <div class="price">NPR. 175,000/- <br> <del>NPR. 225,000</del></div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div> 
+        <div class="card">
+            <img src="../Images/49mm filter.jpg">
+            <h3>49mm Polarizing Filter</h3>
+            <div class="price">NPR. 1,700/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>     
+        <div class="card">
+            <img src="../Images/camera strap.webp">
+            <h3>Camera Strap</h3>
+            <div class="price">NPR. 5,000/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>   
+        <div class="card">
+            <img src="../Images/card reader 2.jpg">
+            <h3>Kingston Technology Card Reader</h3>
+            <div class="price">NPR. 250/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div> 
+        <div class="card">
+            <img src="../Images/remote shutter canon.jpg">
+            <h3>Remote Shutter for Canon</h3>
+            <div class="price">NPR. 1250/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>     
+        <div class="card">
+            <img src="../Images/tripod 4.jpg">
+            <h3>Tripod Stand</h3>
+            <div class="price">NPR. 1,250/-</div>
+            <a href="" class="button">BUY NOW</a>
+            <a href="" class="button">ADD TO CART</a>
+        </div>   
+        
+    </div>
+    <div class="page-btn">
+        <a href="../html/product.html">1</a>
+        <a href="../html/products-2.html">2</a>
+        <a href="#">&#8594;</a>
+    </div>   
+       
+    
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-col-1">
+            <h2><u>Get the App</u></h2><br>
+            <p>Download Our App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+                <a href="">
+                    <img src="../Images/pngegg (1).png"> 
+                </a>
+                <a href="">
+                    <img src="../Images/pngegg (3).png">
+                </a>
+            </div>
+        </div>
+        <div class="footer-col-2">
+            <h3><u>USEFUL LINKS</u></h3>
+            <ul>
+                <a href=""><li>Coupons</li></a>
+                <a href=""><li>Return Policy</li></a>
+                <a href=""><li>Join Affiliate</li></a> 
+            </ul>
+        </div>
+        <div class="footer-col-3">
+            <h3><u>Follow US</u></h3>
+            <ul>
+                <a href=""><li>Facebook</li></a>
+                <a href=""><li>Instagram</li></a>
+                <a href=""><li>TikTok</li></a> 
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="background-color: darkslategrey; color: aliceblue; text-align: center; padding-bottom: 30px;">&copy;2023 TEAM 3|All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
